@@ -1,0 +1,64 @@
+<html>
+<head>
+  <title>Student Registration Form</title>
+</head>
+<body bgcolor="skyblue">
+<center><h1>STUDENT REGISTRAION FORM</center>
+<table align="center" cellpadding="10" border="5">
+<!............Name...........>
+	<tr>
+		<td>NAME</td>
+		<td><input type="text" name="first name" maxlength="30">(max 30 characters a-z and A-Z)</td>
+	</tr>
+<!.........Course Applied For..........>
+	<tr>
+		<td>Course Applied For</td>
+		<td>
+		<select name="course">
+			<option value="select">--select--</option>
+			<option value="MCA">MCA</option>
+			<option value="BCA">BCA</option>
+			<option value="PGDCA">PGDCA</option>
+			<option value="O LEVEL">O LEVEL</option>
+			<option value="M.Sc.">M.Sc.</option>
+		</select>
+		</td>
+	</tr>
+<!..............Gender................>
+	<tr>
+		<td>GENDER</td>
+		<td>Male<input type="radio" name="gender" value="Male">
+		    Female<input type="radio" name=" value="Female">
+		</td>
+	</tr>
+<!..........Address.......>
+	<tr>
+		<td>ADDRESS<br><br><br></td>
+		<td><textarea name="Address" rows="4" cols="30"></textarea></td>
+	</tr>
+<!........Country..............>
+	<tr>
+		<td>COUNTRY</td>
+		<td><input type="text" name="country" value="India" readonly="readonly"></td>
+	</tr>
+<!........Hobbies................>
+	<tr>
+		<td>Hobbies<br><br><br></td>
+		<td>Drawing<input type="checkbox" name="Hobby Drawing" value="Drawing">
+		    Singing<input type="checkbox" name="Hobby Singing" value="Singing">
+			Dancing<input type="checkbox" name="Hobby Dancing" value="Dancing">
+			Sketching<input type="checkbox" name="Hobby sketching" value="sketching">
+		</td>
+	</tr>
+<!........Submit and Reset..........>
+	<tr>
+		<td colspan="2" align="center"><input type="submit" value="submit">
+		                               <input type="reset" value="reset">
+									   <input type="button" onclick="alert('Hello Mr Stark')" value="click"></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>
+		
+		
